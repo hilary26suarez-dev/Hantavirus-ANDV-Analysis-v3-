@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-05-08T18:01:20.538096",
+  "analysis": {
+    "silvestre": {
+      "carga": {
+        "positive": 28,
+        "negative": 10,
+        "net_charge": 18,
+        "charge_density": 0.0972972972972973
+      },
+      "estructura": {
+        "helix_propensity": 0.9838378378378377,
+        "likely_structure": "β-lámina/coil"
+      },
+      "potencial_contacto": {
+        "charge_mismatch": 2,
+        "expected_interaction": "débil",
+        "gn_charge": -2,
+        "integrin_avg_hydrophobicity": -0.18265317460317462
+      }
+    },
+    "mutantes": {
+      "E50R": {
+        "carga": {
+          "positive": 29,
+          "negative": 9,
+          "net_charge": 20,
+          "charge_density": 0.10810810810810811
+        },
+        "potencial_contacto": {
+          "charge_mismatch": 0,
+          "expected_interaction": "débil",
+          "gn_charge": 0,
+          "integrin_avg_hydrophobicity": -0.18265317460317462
+        },
+        "cambio_carga": 2
+      },
+      "E50K": {
+        "carga": {
+          "positive": 29,
+          "negative": 9,
+          "net_charge": 20,
+          "charge_density": 0.10810810810810811
+        },
+        "potencial_contacto": {
+          "charge_mismatch": 0,
+          "expected_interaction": "débil",
+          "gn_charge": 0,
+          "integrin_avg_hydrophobicity": -0.18265317460317462
+        },
+        "cambio_carga": 2
+      },
+      "E50H": {
+        "carga": {
+          "positive": 29,
+          "negative": 9,
+          "net_charge": 20,
+          "charge_density": 0.10810810810810811
+        },
+        "potencial_contacto": {
+          "charge_mismatch": 0,
+          "expected_interaction": "débil",
+          "gn_charge": 0,
+          "integrin_avg_hydrophobicity": -0.18265317460317462
+        },
+        "cambio_carga": 2
+      }
+    }
+  },
+  "mutations": {
+    "E50R": {
+      "position": 50,
+      "original": "E",
+      "mutant": "R",
+      "sequence": "MFILLILSNCVGDFSLSLVIFQLRKAIELVQKGICSGTEIPVKSKEVTKRPQLIDQRTQIFNTPQLLNQYHNGCNQKRNTQGLNQCVNEKVCGNKLTEPLTPQFGPPQSYGKSSSTKQGIIVLTNNHCLSQSDTISQIKVHNQLYQLRKKLSAQVQKLRLKGHKLTELKTSPLTTVKLGTLAGLK"
+    },
+    "E50K": {
+      "position": 50,
+      "original": "E",
+      "mutant": "K",
+      "sequence": "MFILLILSNCVGDFSLSLVIFQLRKAIELVQKGICSGTEIPVKSKEVTKKPQLIDQRTQIFNTPQLLNQYHNGCNQKRNTQGLNQCVNEKVCGNKLTEPLTPQFGPPQSYGKSSSTKQGIIVLTNNHCLSQSDTISQIKVHNQLYQLRKKLSAQVQKLRLKGHKLTELKTSPLTTVKLGTLAGLK"
+    },
+    "E50H": {
+      "position": 50,
+      "original": "E",
+      "mutant": "H",
+      "sequence": "MFILLILSNCVGDFSLSLVIFQLRKAIELVQKGICSGTEIPVKSKEVTKHPQLIDQRTQIFNTPQLLNQYHNGCNQKRNTQGLNQCVNEKVCGNKLTEPLTPQFGPPQSYGKSSSTKQGIIVLTNNHCLSQSDTISQIKVHNQLYQLRKKLSAQVQKLRLKGHKLTELKTSPLTTVKLGTLAGLK"
+    },
+    "L100E": {
+      "position": 100,
+      "original": "L",
+      "mutant": "E",
+      "sequence": "MFILLILSNCVGDFSLSLVIFQLRKAIELVQKGICSGTEIPVKSKEVTKEPQLIDQRTQIFNTPQLLNQYHNGCNQKRNTQGLNQCVNEKVCGNKLTEPETPQFGPPQSYGKSSSTKQGIIVLTNNHCLSQSDTISQIKVHNQLYQLRKKLSAQVQKLRLKGHKLTELKTSPLTTVKLGTLAGLK"
+    },
+    "L100D": {
+      "position": 100,
+      "original": "L",
+      "mutant": "D",
+      "sequence": "MFILLILSNCVGDFSLSLVIFQLRKAIELVQKGICSGTEIPVKSKEVTKEPQLIDQRTQIFNTPQLLNQYHNGCNQKRNTQGLNQCVNEKVCGNKLTEPDTPQFGPPQSYGKSSSTKQGIIVLTNNHCLSQSDTISQIKVHNQLYQLRKKLSAQVQKLRLKGHKLTELKTSPLTTVKLGTLAGLK"
+    },
+    "K150W": {
+      "position": 150,
+      "original": "K",
+      "mutant": "W",
+      "sequence": "MFILLILSNCVGDFSLSLVIFQLRKAIELVQKGICSGTEIPVKSKEVTKEPQLIDQRTQIFNTPQLLNQYHNGCNQKRNTQGLNQCVNEKVCGNKLTEPLTPQFGPPQSYGKSSSTKQGIIVLTNNHCLSQSDTISQIKVHNQLYQLRKWLSAQVQKLRLKGHKLTELKTSPLTTVKLGTLAGLK"
+    },
+    "K150Y": {
+      "position": 150,
+      "original": "K",
+      "mutant": "Y",
+      "sequence": "MFILLILSNCVGDFSLSLVIFQLRKAIELVQKGICSGTEIPVKSKEVTKEPQLIDQRTQIFNTPQLLNQYHNGCNQKRNTQGLNQCVNEKVCGNKLTEPLTPQFGPPQSYGKSSSTKQGIIVLTNNHCLSQSDTISQIKVHNQLYQLRKYLSAQVQKLRLKGHKLTELKTSPLTTVKLGTLAGLK"
+    }
+  },
+  "hypothesis": "Mutaciones en Gn/Gc aumentan afinidad por integrina β₃"
+}
